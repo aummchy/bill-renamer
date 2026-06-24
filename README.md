@@ -110,7 +110,6 @@ Multi-stage filtering pipeline:
 bill-renamer/
 ├── main.py              # Entry point
 ├── config.json          # Configuration
-├── agent.md             # Agent development notes
 ├── src/
 │   ├── __init__.py
 │   ├── ocr.py           # PaddleOCR wrapper

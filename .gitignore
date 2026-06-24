@@ -36,6 +36,13 @@ Desktop.ini
 BillRenamer/
 BillRenamer.spec
 
+# Dev notes
+agent.md
+
+# PyInstaller build files
+app.spec
+rthook_onnxruntime.py
+
 # Temp files
 *.tmp
 *.bak
