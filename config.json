@@ -1,0 +1,23 @@
+{
+  "input_folder": "../image",
+  "supported_formats": [
+    ".jpg",
+    ".jpeg",
+    ".png"
+  ],
+  "log_folder": "./logs",
+  "log_file": "rename_log.md",
+  "max_dimension": 0,
+  "jpeg_quality": 100,
+  "resampling": "bilinear",
+  "onnx_threads": 4,
+  "name_filters": {
+    "max_length": 30,
+    "max_commas": 2,
+    "max_numbers": 2,
+    "skip_words": [
+      "credit",
+      "note"
+    ]
+  }
+}
